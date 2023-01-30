@@ -1,4 +1,7 @@
 <?php
+	/**
+	 *
+	 */
 	namespace IOJaegers\MemoryContainers\Containers;
 
 	use \Iterator;

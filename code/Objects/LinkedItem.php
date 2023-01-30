@@ -1,15 +1,27 @@
 <?php
+	/**
+	 *
+	 */
 	namespace IOJaegers\MemoryContainers\Objects;
-
 	
+	
+	/**
+	 *
+	 */
 	class LinkedItem
 	{
 		// Constructors
+		/**
+		 *
+		 */
 		public function __construct()
 		{
 		
 		}
 		
+		/**
+		 * @return void
+		 */
 		public function __deconstruct()
 		{
 		

@@ -1,4 +1,7 @@
 <?php
+	/**
+	 *
+	 */
 	namespace IOJaegers\MemoryContainers\Containers;
 	
 	use IOJaegers\MemoryContainers\Events\OnChange;
@@ -31,11 +34,17 @@
 			parent::__deconstruct();
 		}
 		
+		/**
+		 * @return void
+		 */
 		public function onChange(): void
 		{
 			// TODO: Implement onChange() method.
 		}
 		
+		/**
+		 * @return bool
+		 */
 		public function hasChanged(): bool
 		{
 			// TODO: Implement hasChanged() method.
