@@ -1,0 +1,24 @@
+{
+    "name": "io-jaegers/memory-containers",
+    "type": "library",
+    "license": "MIT",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "IoJaegers\\MemoryContainers\\": "code/"
+        }
+    },
+
+    "authors":
+    [
+        {
+            "name": "Kent vejrup Madsen",
+            "email": "kent.vejrup.madsen@designermadsen.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0@dev"
+    }
+}
